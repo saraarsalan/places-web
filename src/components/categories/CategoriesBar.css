@@ -1,0 +1,21 @@
+.category{
+    width:80px;
+    height:80px;
+    margin: 15px;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    filter: grayscale(1);
+    transition: all 0.25s linear;
+  }
+  .category:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+  
+  }
+  .category img{
+    width:60px;
+    height:auto;
+  }
